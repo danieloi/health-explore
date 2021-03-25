@@ -20,7 +20,7 @@ export default function JobsListHeader() {
   );
 
   return (
-    <header className="flex py-2 items-center flex-wrap ">
+    <header className="px-2 sm:px-0 flex py-2 items-center flex-wrap ">
       <div className="flex-auto space-x-2">
         <span className="font-bold">{count}</span>
         <span>job posting{count === 1 ? "" : "s"}</span>

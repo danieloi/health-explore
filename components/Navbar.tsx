@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <header>
       <nav className="bg-white">
-        <div className="px-4 flex items-center justify-between h-16">
+        <div className="px-4 sm:px-9 flex items-center justify-between h-16">
           <NavToggle isActive={isActive} toggleIsActive={toggleIsActive} />
           <div className="flex-auto flex items-center justify-between">
             <Link href="/">
@@ -92,14 +92,14 @@ export default function Navbar() {
           <li>
             <a
               href="#"
-              className="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-gray-800 hover:bg-gray-700 hover:text-white block px-4 py-2 rounded-md text-base font-medium"
             >
               PROFILE
             </a>
           </li>
           <li>
             <Link href="/jobs">
-              <a className="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
+              <a className="text-gray-800 hover:bg-gray-700 hover:text-white block px-4 py-2 rounded-md text-base font-medium">
                 JOBS
               </a>
             </Link>
@@ -107,7 +107,7 @@ export default function Navbar() {
           <li>
             <a
               href="#"
-              className="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-gray-800 hover:bg-gray-700 hover:text-white block px-4 py-2 rounded-md text-base font-medium"
             >
               PROFESSIONAL NETWORK
             </a>
@@ -115,7 +115,7 @@ export default function Navbar() {
           <li>
             <a
               href="#"
-              className="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-gray-800 hover:bg-gray-700 hover:text-white block px-4 py-2 rounded-md text-base font-medium"
             >
               LOUNGE
             </a>
@@ -123,7 +123,7 @@ export default function Navbar() {
           <li>
             <a
               href="#"
-              className="text-gray-800 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              className="text-gray-800 hover:bg-gray-700 hover:text-white block px-4 py-2 rounded-md text-base font-medium"
             >
               SALARY
             </a>
@@ -131,7 +131,7 @@ export default function Navbar() {
           <li>
             <a
               href="#"
-              className="block sm:hidden text-blue-500 hover:bg-blue-500 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className="block sm:hidden text-blue-500 hover:bg-blue-500 hover:text-white px-4 py-2 rounded-md text-base font-medium"
             >
               CREATE JOB{" "}
             </a>
@@ -139,7 +139,7 @@ export default function Navbar() {
           <li>
             <a
               href="#"
-              className="block sm:hidden text-gray-800 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-base font-medium"
+              className="block sm:hidden text-gray-800 hover:bg-gray-700 hover:text-white px-4 py-2 rounded-md text-base font-medium"
             >
               LOG OUT
             </a>

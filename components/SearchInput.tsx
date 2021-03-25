@@ -32,7 +32,7 @@ export default function SearchInput() {
 
   return (
     <div className="flex flex-none bg-white w-full md:mb-4 border border-gray-200 items-center relative h-16">
-      <span className="px-3 pt-1">
+      <span className="pl-6 sm:pl-8 pr-4 pt-1">
         <Image src="/search.png" width="15" height="15" alt="search" />
       </span>
       <input
